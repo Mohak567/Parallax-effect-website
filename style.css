@@ -111,6 +111,7 @@ main{
 
 .parallax{
     pointer-events: none;
+    /* transform: translate(-50% , -50%); */
     transition: 0.45s cubic-bezier(.2,.49,.32,.99);
     
 }
@@ -186,13 +187,14 @@ main{
     left: 50%;
     text-align: center;
     text-transform: uppercase;
-    color: #fff;
     pointer-events: auto;
+    color: #fff;
 }
 
 .text h2{
     font-weight: 100;
     font-size: 6.5rem;
+    line-height: 0.88;
 }
 
 .text h1{
@@ -240,6 +242,9 @@ main{
     top: calc(50% + 196px);
     left: calc(50% - 381.5px);
 }
+
+
+
 
 .mountain-3{
     position: absolute;
