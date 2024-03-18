@@ -242,15 +242,12 @@ main{
     left: calc(50% - 381.5px);
 }
 
-
-
-
 .mountain-3{
     position: absolute;
     z-index: 15;
     width: 538px;
     top: calc(50% + 123px);
-    left: calc(50% + 780px);
+    left: calc(50% + 730px);
 }
 
 .fog-2{
@@ -274,7 +271,7 @@ main{
     z-index: 18;
     width: 530px;
     top: calc(50% + 17px);
-    left: calc(50% - 601px);
+    left: calc(50% - 650px);
 }
 
 .sun-rays{
